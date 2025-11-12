@@ -479,7 +479,7 @@ const file_redisproxy_proto_rawDesc = "" +
 	"\fTypeAnyArray\x10\a29\n" +
 	"\n" +
 	"RedisProxy\x12+\n" +
-	"\x02Do\x12\x11.redisproxy.DoReq\x1a\x12.redisproxy.DoRespBH\x8a\x9d \x18Z\n" +
+	"\x02Do\x12\x11.redisproxy.DoReq\x1a\x12.redisproxy.DoRespBL\x8a\x9d \x1c\x18\x01@\x01Z\n" +
 	"redisproxyb\n" +
 	"redisproxyZ*github.com/995933447/redisproxy/redisproxyb\x06proto3"
 
