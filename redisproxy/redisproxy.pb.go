@@ -7,7 +7,7 @@
 package redisproxy
 
 import (
-	_ "github.com/995933447/redisproxy/ext"
+	_ "github.com/995933447/easymicro/pb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -433,7 +433,7 @@ var File_redisproxy_proto protoreflect.FileDescriptor
 const file_redisproxy_proto_rawDesc = "" +
 	"\n" +
 	"\x10redisproxy.proto\x12\n" +
-	"redisproxy\x1a\text.proto\"\xb4\x01\n" +
+	"redisproxy\x1a\x13easymicro_ext.proto\"\xb4\x01\n" +
 	"\x06DoResp\x12\x1b\n" +
 	"\tstr_value\x18\x01 \x01(\tR\bstrValue\x12\x1f\n" +
 	"\vbytes_value\x18\x02 \x01(\fR\n" +
