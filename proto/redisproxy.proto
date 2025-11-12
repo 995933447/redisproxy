@@ -3,9 +3,9 @@ syntax = "proto3";
 package redisproxy;
 option go_package = "github.com/995933447/redisproxy/redisproxy";
 
-import "ext.proto";
+import "easymicro_ext.proto";
 
-option (ext.proto_gen_opts) = {
+option (easymicro_ext.proto_gen_opts) = {
   grpc_schema:"redisproxy"
   discovery_name:"redisproxy"
   disabled_load_mongo:true
