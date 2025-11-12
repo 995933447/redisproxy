@@ -1,7 +1,3 @@
-mkdir ext
-
-protoc --go_out=./ext --go_opt=paths=source_relative --proto_path=./proto ./proto/ext.proto
-
 if [ $# -eq 0 ]; then
   echo "not service input"
   exit 0
@@ -16,4 +12,5 @@ protoc --go_out=./$1\
   --go-grpc_opt=paths=source_relative\
   --easymicro-client_opt=paths=source_relative\
   --proto_path=./proto\
+  --proto_path=../easymicro/proto\
   $1.proto
