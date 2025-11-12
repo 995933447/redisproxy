@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+package redisproxy;
+option go_package = "github.com/995933447/redisproxy/redisproxy";
+
+import "ext.proto";
+
+option (ext.proto_gen_opts) = {
+  grpc_schema:"redisproxy"
+  discovery_name:"redisproxy"
+  disabled_load_mongo:true
+  disabled_elect:true
+};
+
+enum ErrCode {
+  ErrCodeNil = 0;
+  ErrCodeRedisNil = 3001;
+}
+
+enum Type {
+  TypeNil = 0;
+  TypeString = 1;
+  TypeInt64 = 2;
+  TypeUint64 = 3;
+  TypeFloat64 = 4;
+  TypeBytes = 5;
+  TypeBytesArray = 6;
+  TypeAnyArray = 7;
+}
+
+service RedisProxy {
+  rpc Do(DoReq) returns (DoResp);
+}
+
+message DoResp {
+  string str_value = 1;
+  bytes bytes_value = 2;
+  int64 int64_value = 3;
+  repeated Any any_array_value = 4;
+  int32 type = 5;
+}
+
+message DoReq {
+  string command = 1;
+  RedisKey key = 2;
+  repeated Any args = 3;
+  int64 ttl = 4;
+  bool is_async = 5;
+}
+
+message RedisKey {
+  string conn = 1;
+  string key = 2;
+}
+
+message Any {
+  int32 type = 1;
+  bytes bytes_value = 2;
+  string str_value = 3;
+  int64 int64_value = 4;
+  uint64 uint64_value = 5;
+  double float_value = 6;
+  repeated bytes bytes_array_value = 7;
+}
