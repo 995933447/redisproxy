@@ -4,6 +4,8 @@ github.com/995933447/discovery v0.0.0-20251113114926-08b742eebe67 h1:ClbUxb7V/yD
 github.com/995933447/discovery v0.0.0-20251113114926-08b742eebe67/go.mod h1:wveypOZGvSddo0IvQOD+gTQRhsFn97S2G27x5P4iplI=
 github.com/995933447/easymicro v0.0.0-20251113151051-2acead56af08 h1:vRcjjjfvY9wBFS+2S8OmyePI9A+tyjgnzWiylu1KLxo=
 github.com/995933447/easymicro v0.0.0-20251113151051-2acead56af08/go.mod h1:1QoWQx9uE7F4ZR7qkE+/D75w+CQoehbALsPtDujkOM4=
+github.com/995933447/easymicro v0.0.0-20251125192039-0cf14bbcd6be h1:Y3Mt3sfzDSXcEdA4gIgOPxwWEIT07dpcORg8BswJyw4=
+github.com/995933447/easymicro v0.0.0-20251125192039-0cf14bbcd6be/go.mod h1:u71xldNkRfQT6RPBKRO0eiiQga2D3CA2PK16uNSYPlM=
 github.com/995933447/elemutil v0.0.0-20250630191443-bdcec6639093 h1:Rx5vFzioX9cs1QRKA1ZrsvqxNJozPGjirDK4NELnWWg=
 github.com/995933447/elemutil v0.0.0-20250630191443-bdcec6639093/go.mod h1:EF87ykGl7PIcSCF1lmqMHwohMtc8p0uzgP8F2Swg9XA=
 github.com/995933447/fastlog v0.0.0-20251104182943-e21775211e86 h1:aeL+YJCjm57VlrShBWI6kWHVIfgje2AB7PVF+HBHWDE=
@@ -14,8 +16,10 @@ github.com/995933447/gonetutil v0.0.0-20250930112637-8f898353708c h1:MakgDuw3NoC
 github.com/995933447/gonetutil v0.0.0-20250930112637-8f898353708c/go.mod h1:ohT95zFKbutdw7BviBXkma82eZthx4tV6LXSexLQ3h4=
 github.com/995933447/mgorm v0.0.0-20251112220231-ce041fea3845 h1:kN4In2SDJEztXOuFvSIxiChiQ2BjLcTYCTiDql2nNp4=
 github.com/995933447/mgorm v0.0.0-20251112220231-ce041fea3845/go.mod h1:s8zM+pN61A/fDDFxJAXaSxk/4Jb5v88tnhyLIiiQPzY=
+github.com/995933447/mgorm v0.0.0-20251120072259-5a22478b1f49/go.mod h1:s8zM+pN61A/fDDFxJAXaSxk/4Jb5v88tnhyLIiiQPzY=
 github.com/995933447/natsevent v0.0.0-20251109204408-60ec1adebcd8 h1:Rz8o8tUQtM9NIQG7stuf1EXWnu3JJKuMkP4SllPVhpQ=
 github.com/995933447/natsevent v0.0.0-20251109204408-60ec1adebcd8/go.mod h1:PleTfm4NknVMozyTvRbukkZWqkWuD1+2LZUWd7i79Mg=
+github.com/995933447/natsevent v0.0.0-20251114145941-a4589f33009b/go.mod h1:PleTfm4NknVMozyTvRbukkZWqkWuD1+2LZUWd7i79Mg=
 github.com/995933447/reflectutil v0.0.0-20230804071639-c3f1c779b6c3 h1:a2Ded6Of5jQMV/Rqd53w5gsRlDvequLmp3STBkHScCQ=
 github.com/995933447/reflectutil v0.0.0-20230804071639-c3f1c779b6c3/go.mod h1:Tkho/yq1vuQTuZSuacoXxDkMvU1qtjjbAsB6VEamfa0=
 github.com/995933447/routeredis v0.0.0-20251106105705-c8553379e3f5 h1:b/hu9S5CjzpGT+BFusamsAKqnLGsSFs5/ZVEXcgCk5o=
@@ -169,6 +173,7 @@ golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPh
 golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod h1:GvvjBRRGRdwPK5ydBHafDWAxML/pGHZbMvKqRZ5+Abc=
 golang.org/x/crypto v0.44.0 h1:A97SsFvM3AIwEEmTBiaxPPTYpDC47w720rdiiUvgoAU=
 golang.org/x/crypto v0.44.0/go.mod h1:013i+Nw79BMiQiMsOPcVCB5ZIJbYkerPrGnOa00tvmc=
+golang.org/x/crypto v0.45.0/go.mod h1:XTGrrkGJve7CYK7J8PEww4aY7gM3qMCElcJQ8n8JdX4=
 golang.org/x/mod v0.2.0/go.mod h1:s0Qsj1ACt9ePp/hMypM3fl4fZqREWJwdYDEqhRiZZUA=
 golang.org/x/mod v0.3.0/go.mod h1:s0Qsj1ACt9ePp/hMypM3fl4fZqREWJwdYDEqhRiZZUA=
 golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod h1:jJ57K6gSWd91VN4djpZkiMVwK6gcyfeH4XE8wZrZaV4=

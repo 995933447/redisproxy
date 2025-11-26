@@ -4,9 +4,9 @@ go 1.24.5
 
 require (
 	github.com/995933447/discovery v0.0.0-20251113114926-08b742eebe67
-	github.com/995933447/easymicro v0.0.0-20251113151051-2acead56af08
+	github.com/995933447/easymicro v0.0.0-20251125192039-0cf14bbcd6be
 	github.com/995933447/fastlog v0.0.0-20251104182943-e21775211e86
-	github.com/995933447/mgorm v0.0.0-20251112220231-ce041fea3845
+	github.com/995933447/mgorm v0.0.0-20251120072259-5a22478b1f49
 	github.com/995933447/routeredis v0.0.0-20251106105705-c8553379e3f5
 	github.com/995933447/runtimeutil v0.0.0-20251106145257-76800ec1a3bb
 	github.com/gomodule/redigo v1.9.3
@@ -19,7 +19,7 @@ require (
 	github.com/995933447/elemutil v0.0.0-20250630191443-bdcec6639093 // indirect
 	github.com/995933447/gofiler v0.0.0-20250611152943-58698ea59433 // indirect
 	github.com/995933447/gonetutil v0.0.0-20250930112637-8f898353708c // indirect
-	github.com/995933447/natsevent v0.0.0-20251109204408-60ec1adebcd8 // indirect
+	github.com/995933447/natsevent v0.0.0-20251114145941-a4589f33009b // indirect
 	github.com/995933447/reflectutil v0.0.0-20230804071639-c3f1c779b6c3 // indirect
 	github.com/995933447/rpcbreaker v0.0.0-20251008122803-e2966ab3e50e // indirect
 	github.com/995933447/stringhelper-go v0.0.0-20251106145056-e7fcf480d316 // indirect
@@ -65,7 +65,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.44.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/sync v0.18.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
